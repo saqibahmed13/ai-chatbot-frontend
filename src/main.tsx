@@ -1,4 +1,4 @@
-import React from "react";
+
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
@@ -7,6 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext.tsx";
 import { Toaster } from "react-hot-toast";
 import axios from "axios";
+import React from "react";
 axios.defaults.baseURL = "https://ai-chatbot-backend-k4od.onrender.com/api/v1";
 axios.defaults.withCredentials = true;
 const theme = createTheme({
