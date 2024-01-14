@@ -61,7 +61,6 @@ const Chat = () => {
       return navigate("/login");
     }
   }, [auth]);
-  console.log("data",auth?.user?.name[0]);
   return (
     <Box
       sx={{
